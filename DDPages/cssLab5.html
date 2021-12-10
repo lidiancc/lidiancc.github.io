@@ -1,101 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-	<style>
-	   div {
-			width: 100px;
-			height: 100px;
-			border: 20px groove #47248f;
-            font-size:100px;
-            text-align:center;
-			background-color: MediumPurple;
-		    }
+  <head>
+   
+    <title>Page Title</title>
 
-    .Lclass {
-      transition: height 3s, width 2s,background-color 2s;
-      color:#47248f;
-      }
-		
-    .Lclass:hover{
-      background-color:#39ac6d;
-      height: 200px;
-      width:300px;
-      color: #194d30;  
-    }
-
-    .Iclass{
-      color: #47248f;
-      transition: background-color 3s, transform 2s, width 3s, height 3s, color 3s;
-      
-    }
-    .Iclass:hover{
-      width: 250px;
-      height: 300px;
-      background-color:red;
-      color:darkred;
-      transform: rotate(-600deg);
-    }
-
-      .Dclass{
-      transition: height 2s, width 1s,
-      background-color 1s;
-      color:#47248f;
-    }
-    .Dclass:hover{
-      background-color:#b3b3b3;
-      height: 300px;
-      width:300px;
-      color: #666666;
-    }
-     
-    .I2class{
-      transition: width 2s, height 2s,  background-color 1.5s;
-      color: #47248f;
-    }
-    .I2class:hover{
-      background-color:#0080ff;
-      height: 300px;
-      width: 125px;
-      color: #004d99;
-    }
-
-    .Aclass{
-      transition: width 4s, height 3s, background-color 2s;
-      color:#47248f;
-    }
-    .Aclass:hover{
-      background-color:#8c6226;
-      width:300px;
-      height:150px;
-      color:#503816;
-      transform: skewY(-45deg)
+    <style> 
+  
+    body{
+    font-family: Tahoma, Verdana, sans-serif;
+    text-align:center;
     }
     
-    .Nclass{
-      transition: background-color 0.5s,  transform 3s;
-      color: #47248f;
+    p{
+    background: linear-gradient(to bottom, black 0%, #cc0000 83%);
+    color: white;
+    text-shadow: 1px 1px 1px #2b0808;
+    border: 1px solid black;
+    outline: 5px dotted Firebrick;
     }
-    .Nclass:hover{
-      background-color:#ffb3cc;
-      color:#ff80aa;
-      transform: rotatey(-720deg);
+ 
+    
+    .titleclass{
+    transition: background-color 1s;
+    background: linear-gradient(to top, black 0%, #990000 100%);
+    color:white;
+    px solid black;
+    outline: 5px double #961d1d;
+    text-shadow: 2px 2px 6px black;
+    font-size: 20px; 
     }
+    
+    .titleclass:hover{
+     background: white;
+     color: black;
 
+    }
+   
+    body{
+    background-image: url("avatar.png");
+    background-position: center;
+	background-size: 350px
+    }
+   
 
-</style>
-</head>
-
-<body>
-	
-<p>Hover over each letter to see the transition effect:</p>
-
-  <div class = "Lclass">L</div>
-  <div class = "Iclass">I</div>
-  <div class = "Dclass">D</div>
-  <div class = "I2class">I</div>
-  <div class = "Aclass">A</div>
-  <div class = "Nclass">N</div>
+  </style>
+  </head>
+  <body>
+ 
+  <div class = "titleclass">  Avatar: The Last Airbender</div>
+  
+   <p>Water. Earth. Fire. Air. Long ago, the four nations lived together in harmony. Then, everything changed when the Fire Nation attacked. Only the Avatar, master of all four elements, could stop them, but when the world needed him most, he vanished. A hundred years passed and my brother and I discovered the new Avatar, an airbender named Aang. And although his airbending skills are great, he has a lot to learn before he's ready to save anyone. But I believe Aang can save the world.</p>
   </body>
 </html>
